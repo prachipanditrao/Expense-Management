@@ -33,6 +33,3 @@ Follow the steps below to set up the project locally.
 - Angular CLI (v12+)
 - npm (v6+)
 - An IDE (VSCode, WebStorm, etc.)
-
-### Application Demo
-![image](https://github.com/user-attachments/assets/3b8865d3-4577-449b-9ffd-7292527c709d)
