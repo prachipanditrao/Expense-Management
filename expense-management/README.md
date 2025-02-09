@@ -1,59 +1,35 @@
-# ExpenseManagement
+# Expense Management Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+## Project Overview
 
-## Development server
+This project is a full-stack application designed to manage and visualize expenses using Angular as the frontend and Node.js as the backend. The application fetches expense data from the [Plaid Sandbox API](https://plaid.com/docs/), processes the data, and displays it in a modern, responsive UI.
 
-To start a local development server, run:
+### Frontend
+- **Framework**: Angular
+- **UI Library**: Angular Material for modern and responsive components
+- **Charts**: ngx-charts for data visualization
+- **HTTP Library**: Angular HttpClientModule for making API calls
 
-```bash
-ng serve
-```
+### Backend
+- **Framework**: Node.js
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Insights
+- **Total Expenses**: Displays the total amount spent in the given period.
+- **Category-wise Breakdown**: Visualizes the expense distribution across different categories.
+- **Monthly Expense Trends**: Displays trends of expenses across months.
 
-## Code scaffolding
+## Key Features
+- Fetch expense data from Plaid Sandbox API.
+- Display expenses in a table with sorting and filtering.
+- Show visual insights using charts.
+- Responsive and clean UI using Angular Material.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Getting Started
 
-```bash
-ng generate component component-name
-```
+Follow the steps below to set up the project locally.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Prerequisites
+- Node.js (v14+)
+- Angular CLI (v12+)
+- npm (v6+)
+- An IDE (VSCode, WebStorm, etc.)
